@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingTop="50dp"
+    android:paddingLeft="18dp"
+    android:paddingRight="15dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Экран входа"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="7dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Еще нет аккаунта?"
+            android:textSize="20dp"
+            android:layout_marginRight="3dp"
+            />
+        <TextView
+            android:id="@+id/TextSamFirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Зарегестрируйтесь"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="?attr/textFillColor"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="25dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Настройки"
+        android:textSize="20dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/color"
+            style="?attr/buttonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Цвет"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#DFDFDF"
+        />
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Электронная почта или Имя пользователя"
+        android:textSize="16dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="?attr/background"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Пароль"
+        android:textSize="16dp"
+        />
+        <TextView
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show"
+            android:textSize="16dp"
+            android:textColor="?attr/textFillColor"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="?attr/background" />
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="250dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Забыли пароль?"
+        android:textSize="16dp"
+        android:textColor="?attr/textFillColor"
+        />
+    <Button
+        style="?attr/buttonStyle"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Войти"
+        android:textSize="20dp"
+        />
+
+</LinearLayout>

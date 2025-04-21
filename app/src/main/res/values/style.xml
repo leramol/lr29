@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="GreenText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#00FF00</item>
+    </style>
+    <style name="GreenText2" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#00FF00</item>
+    </style>
+    <style name="GreenText.Large">
+        <style name="GreenTheme2" parent="Theme.MyApp">
+            <item name="android:textColor">@color/cedar</item>
+            <item name="android:background">@color/pinkAngry</item>
+            <item name="android:backgroundTint">@color/moss</item>
+        </style>
+    </style>
+</resources>
